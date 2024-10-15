@@ -175,7 +175,7 @@ checkoutBtn.addEventListener("click", function() {
 function checkRestaurantOpen() {
   const data = new Date();
   const hora = data.getHours();
-  return hora >= 9 && hora < 2330; // true = restaurante está aberto 
+  return hora >= 9 && hora < 21; // true = restaurante está aberto 
 }
 
 // Manipulação do modal de imagem do produto
